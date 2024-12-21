@@ -2,10 +2,10 @@
   "name": "latex-begin-end-auto-rename",
   "displayName": "LaTeX Begin End Auto Rename",
   "description": "Automatically modify the other when editing either begin or end in LaTeX.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "wxhenry",
   "engines": {
-    "vscode": "^1.96.0"
+    "vscode": "^1.7.0"
   },
   "homepage": "https://github.com/wxhenry/latex-begin-end-auto-rename",
 	"repository": {
@@ -37,7 +37,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.96.0",
+    "@types/vscode": "^1.7.0",
     "@types/mocha": "^10.0.7",
     "@types/node": "20.x",
     "eslint": "^9.9.1",
