@@ -1,0 +1,37 @@
+{
+  "name": "latex-begin-end-auto-rename",
+  "displayName": "LaTeX Begin End Auto Rename",
+  "description": "Automatically modify the other when editing either begin or end in LaTeX.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "icon": "images/icon.png",
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": ["onLanguage:latex"],
+  "main": "./extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "latex",
+        "aliases": ["LaTeX", "latex"],
+        "extensions": [".tex"]
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.96.0",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "20.x",
+    "eslint": "^9.9.1",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  }
+}
