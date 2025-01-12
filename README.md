@@ -14,7 +14,7 @@ This extension aims to provide a feature that automatically renames the correspo
 
 # Known Issues
 
-- This extension will also work on comments. For example, if you have a comment like `% \begin{document}`, this extension will still try to rename it.
+<!-- - This extension will also work on comments. For example, if you have a comment like `% \begin{document}`, this extension will still try to rename it. -->
 
 <!-- 当begin在与之“匹配“的end之后时可能会出现问题 -->
 
