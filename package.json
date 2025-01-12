@@ -2,7 +2,7 @@
   "name": "latex-begin-end-auto-rename",
   "displayName": "LaTeX Begin End Auto Rename",
   "description": "Automatically modify the other when editing either begin or end in LaTeX.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "wxhenry",
   "engines": {
     "vscode": "^1.7.0"
